@@ -20,7 +20,11 @@
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success rounded" type="submit">Search</button>
+                    </form>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                       <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                       </li>
@@ -36,10 +40,7 @@
                       
                      
                     </ul>
-                    <form class="d-flex">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                   
                   </div>
                 </div>
               </nav>
@@ -49,18 +50,18 @@
 
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
+                  <div class="carousel-item active" data-bs-interval="2000">
                    <div class="row  bg-warning d-flex justify-content-evenly p-5 align-items-center">
                        <div class="col-lg-4 ms-0 ">
                            <h1> Happy Eid Mubarak 2021</h1>
                            <p> we are happy to see you in our webstore . We always try to keep the trust of our beloved customer</p>
                            <p class=" text-info fs-3 "> Stay home , stay safe and buy Hamba on online</p>
                        </div>
-                       <div class="col-7"> <img src="hamba/hamba1.jpg" class="d-block w-100"  height="381px" alt="..."></div>
+                       <div class="col-7"> <img src="hamba/hamba1.jpg" class="d-block w-100"  height="340px" alt="..."></div>
 
                    </div>
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item" data-bs-interval="3000">
                     <div class="row bg-warning d-flex justify-content-evenly p-5 align-items-center">
                       <div class="col-lg-4 ms-0 ">
                           <h1> Happy Eid Mubarak 2021</h1>
@@ -71,7 +72,7 @@
 
                   </div>
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item" data-bs-interval="3000">
                     <div class="row bg-warning d-flex justify-content-evenly p-5 align-items-center">
                       <div class="col-lg-4 ms-0 ">
                           <h1> Happy Eid Mubarak 2021</h1>
@@ -102,9 +103,14 @@
           <div class="col-lg-4"><div class="bg-success w-75 border rounded h-100"> <h2 class="text-center text-light""> Camel</h2></div></div>
           <div class="col-lg-4"><div class="bg-danger w-75 border rounded h-100"> <h2 class="text-center text-light"" >Goat </h2></div></div>
         </div>
+        <div class="alert alert-danger mt-5" role="alert">
+         We are providing authentic service and we are cerrified so nothing about to worry here to shop online!
+        </div>
       </section>
       <section class="container bg-light " id="camel">
-        <h1 class=" text-danger text-center">Camels </h1>
+        <h1 class=" text-danger text-center">Camels <button type="button" class="btn btn-success">
+          Total sales <span class="badge bg-secondary">43</span>
+        </button>  <span class="text-danger fs-5">bia online this month</span></h1> 
         <div class="row container g-4">
           <div class="col-lg-4 col-md-6 col-12">
             <div class="card" style="width: 18rem;">
@@ -191,9 +197,42 @@
             </div>
           </div>
         </div>
+        <div class="alert alert-info d-flex align-items-center mt-5 " role="alert">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
+            <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>
+          <div class="">
+            Want a discount offer in shopping? click here <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger ms-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Click me!
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Big Bonus/discount</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    If you buy two camels at a time we will give you 50000 tk discount copun. And if you buy 3 the discount will be 1 lakh taka . IF you buy 4 then it will be 4 laks. And for more please contact with us.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
       </section>
       <section class="container bg-light mt-5 " id="cow ">
-        <h1 class=" text-danger text-center">Cows  </h1>
+        <h1 class=" text-danger text-center">Cows <button type="button" class="btn btn-success">
+          Total sales <span class="badge bg-secondary">83</span>
+        </button>  <span class="text-danger fs-5">bia online this month</span> </h1>
         <div class="row container g-4">
           <div class="col-lg-4 col-md-6 col-12">
             <div class="card" style="width: 18rem;">
@@ -282,7 +321,9 @@
         </div>
       </section>
       <section class="container bg-light mt-5 " id="goat">
-        <h1 class=" text-danger text-center">Goat </h1>
+        <h1 class=" text-danger text-center">Goat <button type="button" class="btn btn-success">
+          Total sales <span class="badge bg-secondary">23</span>
+        </button>  <span class="text-danger fs-5">bia online this month</span> </h1>
         <div class="row container g-4">
           <div class="col-lg-4 col-md-6 col-12">
             <div class="card" style="width: 18rem;">
