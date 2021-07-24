@@ -13,7 +13,7 @@
 
         <section>
 
-            <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+            <nav class="navbar navbar-expand-lg navbar-light bg-info">
                 <div class="container">
                   <a class="navbar-brand" href="#"><img src="logo/cowbro.png" class=" w-25 rounded-circle" alt=""> <span class="text-5">Mogol</span></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,6 +56,7 @@
                            <h1> Happy Eid Mubarak 2021</h1>
                            <p> we are happy to see you in our webstore . We always try to keep the trust of our beloved customer</p>
                            <p class=" text-info fs-4 "> we are providing butchers for qorbani, for hire please contact us via email</p>
+                           <div class="btn btn-secondary">Book Now</div>
                        </div>
                        <div class="col-lg-7 col-md-6 col-12"> <img src="hamba/hamba1.jpg" class="d-block w-100"  height="340px" alt="..."></div>
 
@@ -67,6 +68,7 @@
                           <h1> Happy Eid Mubarak 2021</h1>
                           <p> we are happy to see you in our webstore . We always try to keep the trust of our beloved customer</p>
                           <p class=" text-info fs-3 "> Stay home , stay safe and buy Hamba on online</p>
+                          <div class="btn btn-info "> <a href="#discount" class="text-decoration-none text-white"> Discounts</a></div>
                       </div> 
                       <div class="col-lg-7 col-md-6 col-12"> <img src="hamba/hamba4.jpg" class="d-block w-100 " height="340px" alt="..."></div>
 
@@ -78,6 +80,7 @@
                           <h1> Happy Eid Mubarak 2021</h1>
                           <p class="text-info"> we are giving home delivary within 1 day via cash in delivar system. If you cannot find product as you ordered in online we will immediately refund you.</p>
                           <p class=" text-white fs-3 "> Stay home , stay safe and buy Hamba on online</p>
+                          <div class="btn btn-success">Order-Now</div>
                       </div>
                       <div class="col-lg-7 col-md-6 col-12"> <img src="hamba/hamba3.jpg" class="d-block w-100" height="340px" alt="..."></div>
 
@@ -98,10 +101,19 @@
     <main>
 
       <section class="container mt-5 mb-5 ps-5">
+        <h1 class="text-center border rounded s my-3 text-white bg-dark"> Welcome to our shop , just explore the shop.</h1>
         <div class="row ">
-          <div class="col-lg-4"><div class="bg-primary w-75 border rounded h-100"> <h2 class="text-center text-light">Cow</h2></div></div>
-          <div class="col-lg-4"><div class="bg-success w-75 border rounded h-100"> <h2 class="text-center text-light""> Camel</h2></div></div>
-          <div class="col-lg-4"><div class="bg-danger w-75 border rounded h-100"> <h2 class="text-center text-light"" >Goat </h2></div></div>
+          <div class="col-lg-4"><div class="bg-primary w-75 border rounded h-100 p-3"> <h1 class="text-center d-flex justify-content-evenly align-items-center text-light"><span>Cow</span> <img src="logo/caar1.jpg" width="40%" alt=""></h1></div></div>
+          <div class="col-lg-4"><div class="bg-danger w-75 border rounded h-100 p-3"> <h1 class="text-center d-flex justify-content-evenly align-items-center text-light"><span>Goat </span> <img src="logo/caar2.webp" width="40%" alt=""></h1></div></div>
+          <div class="col-lg-4"><div class="bg-info w-75 border rounded h-100 p-3"> <h1 class="text-center d-flex justify-content-evenly align-items-center text-light"><span>Camel </span> <img src="logo/caar3.png" width="70%" alt=""></h1></div></div>
+        
+        </div>
+        <div class="my-5">
+         <p class="fs-2"> Our customer satisfaction lever is shown here for your assurance</p>
+         <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">95%</div>
+        </div>
+        
         </div>
         <div class="alert alert-danger mt-5" role="alert">
          We are providing authentic service and we are cerrified so nothing about to worry here to shop online!
@@ -197,13 +209,13 @@
             </div>
           </div>
         </div>
-        <div class="alert alert-info d-flex align-items-center mt-5 " role="alert">
+        <div class="alert alert-info d-flex align-items-center mt-5 " role="alert" id="discount">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
             <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
           </svg>
           <div class="">
             Want a discount offer in shopping? click here <!-- Button trigger modal -->
-            <button type="button" class="btn btn-danger ms-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="button" class="btn btn-danger ms-4" data-bs-toggle="modal" id="discount" data-bs-target="#exampleModal">
               Click me!
             </button>
             
@@ -424,8 +436,8 @@
 </div>
       </section>
       
-     <section class="m-5 bg-secondary"> <div class= " d-flex justify-content-center align-items-center">
-     <span> copyright reserved here</span> <img src="logo/footer.png" width="9%" alt="">
+     <section class="m-4 bg-secondary" style=" height: 100px;"> <div class= " d-flex justify-content-center align-items-center">
+     <span> copyright reserved here</span> <img src="logo/footer.png" width="8%" alt="">
     </div></section>
     </footer>
     
